@@ -1,0 +1,39 @@
+{
+  "todos": [
+    {
+      "id": 0,
+      "text": "Tvätta kläder",
+      "done": false
+    },
+    {
+      "id": 1,
+      "text": "Köpa kläder",
+      "done": false
+    },
+    {
+      "id": 2,
+      "text": "Borsta tänder",
+      "done": false
+    },
+    {
+      "id": 3,
+      "text": "Putsa skor",
+      "done": false
+    },
+    {
+      "id": 4,
+      "text": "Städa köket",
+      "done": false
+    },
+    {
+      "id": 5,
+      "text": "Göra läxa",
+      "done": false
+    },
+    {
+      "id": 6,
+      "text": "Hälsa på mamma",
+      "done": false
+    }
+  ]
+}

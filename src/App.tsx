@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { CreateTodoForm } from "./components/create-todo-form";
+import { Titlebar } from "./components/titlebar";
+import { TodoList } from "./components/todo-list";
+import styled from "styled-components";
+
+const FlexContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: 8rem auto 0;
+  align-items: flex-start;
+`;
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Titlebar />
+      <FlexContainer>
+        <TodoList />
+        <CreateTodoForm />
+      </FlexContainer>
     </div>
   );
 }
